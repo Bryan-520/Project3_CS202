@@ -131,7 +131,7 @@ def build_tree_from_queue(priority_queue: MinHeap) -> Node:
 
         # Create a new node that combines these two nodes.
         # The new node's frequency is the sum of the two extracted nodes' frequencies.
-        # Choose the character with the lower lexicographical order for the new node for consistent handling, if needed.
+        # Choose the character with the lower lexicographical order for the new node for consistent handling
 
 
         # Enqueue the newly created merged node back into the priority queue
